@@ -24,4 +24,4 @@ steps:
     runFortifyUpload: true
     fortifyServerName: 'fortifySSC_test'
     fortifyApplicationName: 'azureDotnet'
-    fortifyApplicationVersion: '1.0'
+    fortifyApplicationVersion: '2.0'
