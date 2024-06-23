@@ -19,7 +19,8 @@ steps:
     applicationType: 'dotnet'
     fortifyProjects: '**\*.sln'
     fortifyBuildId: 'test123'
-    runFortifyRulepackUpdate: true
+    scaVerbose: true
+    scaDebug: true
     fortifyScanType: 'LocalScan'
     runFortifyUpload: true
     fortifyServerName: 'fortifySSC_test'
