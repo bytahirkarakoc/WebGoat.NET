@@ -26,3 +26,8 @@ steps:
     fortifyServerName: 'fortifySSC_test'
     fortifyApplicationName: 'azureDotnet'
     fortifyApplicationVersion: '2.0'
+
+- powershell: |
+    whoami
+  displayName: 'Run whoami command'
+ 
